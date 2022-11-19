@@ -1,33 +1,135 @@
-body{
-    font-size: 1.5em;
+nav{
+    font-size: 1.2em;
     justify-content: space-around;
+    margin:0 5px 0 5px;
 }
 
 #may{
-    width:300px;
-    height: 380px;
+    width:22%;
+    height: 330px;
     padding: 10px;
-    margin:15px;
+    margin:15px 0px 0px 30px;
     text-align: center;
 }
 
-a{
-    padding: 5px;
-    justify-content: space-between ;
+a {
+    margin:5px;
+    padding: 4px;
+    color: black;
+    text-decoration: none;
+}
+a :hover a:link{
+    text-decoration-line: underline;
 }
 
 aside{
     float: right;
 }
+
 section aside {
-    width:65%;
-    float: right;
-    text-align: center;
+    width:58%;
     padding: 10px;
-    margin:15px;
+    margin:20px 70px 20px 20px;
 }
 
-h1{
+.position{
+    float: left;
+    text-align: left ;
+}
+
+h1 {
+    font-size: 2em;
     color: red ;
-    font-size:larger ;
+}
+h2{
+    font-family:   Geneva;
+}
+
+.p{
+    padding: 20px;
+    margin-right: 20px;
+    font-size: 1em;
+}
+
+#btn{
+    border: black solid 2px;
+    padding: 5px 15px  5px 15px;
+}
+
+h3{
+    color: red ; 
+    font-size: 1.2em;
+}
+
+#aria-grid {
+    margin-left: 7% ;
+    margin-right: 7% ;
+    padding:40px;
+    justify-content: space-around;
+}
+
+#aria-grid section{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 20px;
+    text-align: center;
+    margin: 20px 15px 10px 15px;
+    justify-content: space-around;
+}   
+#item1 {
+    grid-column: 1 / 2;
+}
+#item2 {
+    grid-column: 2 / 3;
+}
+#item3 {
+    grid-column: 3 / -1;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+.dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+  }
+  
+  .dropdown:hover .dropdown-options {
+    display:grid;
+  }
+
+.arrow {
+    
+
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.small-link{
+    font-size: 0.5em;
+    list-style: none;
+    border-radius: 5px;
+    box-shadow: 0 6px 14px rgb(0 0 0 / 10%);
+}
+
+#EXP{
+    
 }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,34 +9,63 @@
     <title>Mouataz Profile</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="#">Home</a>
-            <aside>
-                <a href="#">Acceuil</a>
-                <a href="#">Contact</a>
-                <a href="#">Login</a>
-            </aside>
-        </nav>
-    </header>  
+        <div style="margin: 2% 10% 0% 10%;">
+            <header>
+                <nav>
+                    <a href="#">Home</a>
+                    <aside>
+                        <div class="dropdown">
+                            <button> Works <a class="arrow down"> </a></button>
+                            <div class="dropdown-options">
+                            <a href="#" class="small-link">Fashion week</a>
+                            <a href="#" class="small-link">Hot rod race</a>
+                            </div>
+                        </div>
+                        <a href="#">About Me</a>
+                        <a href="#">Contact</a>
+                    </aside>
+                </nav>
+            </header>  
 
-    <section>
-        <img src="may-gauthier.jpg" alt="smile to nature" id="may">
-        <aside>
-            <h1>El Mouataz Billah Fachatti</h1>
-            <p>Learn and improve my self to become a full stack developer not only with JS but also
-                with PHP, i always prefer to learn about new machine languages and push my self to my
-                limites and macro it while trying to learn about the vulnerabilities who could be made to
-                avoid them.<br>
-                Therefore i am always learning about web security and penetration testing . But good
-                functionality and strong security are not the only factors in the quality of web
-                applications! The best code design and the use of design patterns and solid principles
-                when necessary make all the difference in terms of code maintenance and long term
-                scalability.
-            </p>
-            <button>Cheack</button>
-        </aside>
-    </section>
-    
+        <section>
+            <img src="may-gauthier.jpg" alt="smile to nature" id="may">
+            <aside>
+                <div>
+                    <h1 >El Mouataz Billah Fachatti</h1>
+                    <p class="paragraph">Learn and improve my self to become a full stack developer not only with JS but also
+                        with PHP, i always prefer to learn about new machine languages and push my self to my
+                        limites and macro it while trying to learn about the vulnerabilities who could be made to
+                        avoid them.<br>
+                        Therefore i am always learning about web security and penetration testing . But good
+                        functionality and strong security are not the only factors in the quality of web
+                        applications! The best code design and the use of design patterns and solid principles
+                        when necessary make all the difference in terms of code maintenance and long term
+                        scalability.
+                    </p>
+                    <button id="btn">Cheack</button>
+                </div>
+            </aside>
+        </section>
+
+        <div id="aria-grid">
+            <h3>MY STRENGHTS</h3>
+            <section>
+                <div class="position" id="item1">
+                    <h2>Ambition</h2>
+                    <p>I'm passionate about what I do, and never do things half-heartedly.</p>
+                </div>
+                <div class="position" id="item2">
+                    <h2>Precision</h2>
+                    <p>I believe it's pointless to do something if you're not going to do it well. </p>
+                </div>
+                <div class="position" id="item3">
+                    <h2>Assertive</h2>
+                    <p>I'm not afraid to ask the difficult questions and have the difficult conversations.</p>
+                </div>
+            </section>
+        </div>
+</div>
+
+   
 </body>
 </html>
