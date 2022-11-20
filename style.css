@@ -54,10 +54,10 @@ h2{
 #btn{
     border: black solid 2px;
     padding: 5px 15px  5px 15px;
-    margin-top: 10px;
 }
-#btn:hover{
+#btn :hover{
     background-color: whitesmoke;
+    
 }
 
 h3{
@@ -134,3 +134,41 @@ button{
     box-shadow: 0 6px 14px rgb(0 0 0 / 10%);
 }
 
+#myEXP{
+    background-color: whitesmoke;
+    padding:20px;
+    line-height: 30px;
+    margin-top: 15%;
+    margin-bottom: 20%;
+}
+
+.EXP{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 20px;
+    text-align: left;
+    margin-left: 15% ;
+    margin-right: 15% ;
+    place-content: space-around;
+    line-height: 1.5em;
+}
+
+.EXP-sec{
+    font-size: 0.8em;
+    margin: 15px;
+    padding:15px;
+    justify-content: space-between;
+    grid-gap: 15px;
+
+}
+
+.EXP-sec p{
+    font-family:"Montserrat", sans-serif ;
+}
+
+#img-aside{
+    float: right;
+    width:400px;
+    height: 500px;
+    padding: 15px;
+}
